@@ -1,5 +1,5 @@
 $(function(){
-	$("#footer").load("../footer.html");
-	$("#header").load("../header.html");
-	$("#linkmenu").load("../linkmenu.html");
+	$("#footer").load("https://monicainmb.github.io/common/style/footer.html");
+	$("#header").load("https://monicainmb.github.io/common/style/header.html");
+	$("#linkmenu").load("https://monicainmb.github.io/common/style/linkmenu.html");
 });

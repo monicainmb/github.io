@@ -12,7 +12,13 @@
 <title>monicaの管理室</title>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://monicainmb.github.io/common/style/loadlayout.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#footer").load("https://monicainmb.github.io/common/style/footer.html");
+	$("#header").load("https://monicainmb.github.io/common/style/header.html");
+	$("#linkmenu").load("https://monicainmb.github.io/common/style/linkmenu.html");
+});
+</script>
 
 <link rel="stylesheet" href="./common/style/default.css" type="text/css">
 <link rel="shortcut icon" href="./common/img/icon.png" type="image/png">

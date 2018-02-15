@@ -1,0 +1,88 @@
+/*
+ 汎用スタイル
+ */
+p {
+	font-size:16px;
+	color:black;
+}
+
+h1 {
+	font-size:32px;
+}
+
+h2 {
+	font-size:24px;
+}
+
+h3 {
+	font-size:20px;
+}
+
+/*
+ HP上部
+ */
+div.header {
+	position:relative;
+}
+
+/*
+ メイン部分
+ */
+div.main {
+	position:relative;
+}
+
+/*
+ 内容
+ */
+div.main .content {
+	position:relative;
+	float	:right;
+
+}
+
+/*
+ リンクメニュー
+ */
+div.main .linkmenu {
+	position:	relative;
+	width:		128px;
+	float:		left;
+}
+
+div.main .linkmenu ul {
+	font-size	:12px;
+	position	:relative;
+}
+
+div.main .linkmenu li {
+	font-size	:9px;
+}
+
+/*
+ HP下部
+ */
+div.footer {
+	position:relative;
+}
+
+/*
+ float解除
+ */
+div:after,
+ul:after {
+	content:	" ";
+	clear:		both;
+	display:	block;
+}
+
+/*
+ 履歴
+*/
+div.logBox p {
+	font-size	:14px;
+	width		:320px;
+	height		:128px;
+	overflow	:scroll;
+	background	:white;
+}

@@ -1,5 +1,5 @@
 /*
- 汎用スタイル
+ 豎守畑繧ｹ繧ｿ繧､繝ｫ
  */
 p {
 	font-size:16px;
@@ -19,21 +19,21 @@ h3 {
 }
 
 /*
- HP上部
+ HP荳企Κ
  */
 div.header {
 	position:relative;
 }
 
 /*
- メイン部分
+ 繝｡繧､繝ｳ驛ｨ蛻�
  */
 div.main {
 	position:relative;
 }
 
 /*
- 内容
+ 蜀�螳ｹ
  */
 div.main .content {
 	position:relative;
@@ -42,7 +42,7 @@ div.main .content {
 }
 
 /*
- リンクメニュー
+ 繝ｪ繝ｳ繧ｯ繝｡繝九Η繝ｼ
  */
 div.main .linkmenu {
 	position:	relative;
@@ -60,14 +60,14 @@ div.main .linkmenu li {
 }
 
 /*
- HP下部
+ HP荳矩Κ
  */
 div.footer {
 	position:relative;
 }
 
 /*
- float解除
+ float隗｣髯､
  */
 div:after,
 ul:after {
@@ -77,7 +77,7 @@ ul:after {
 }
 
 /*
- 履歴
+ 螻･豁ｴ
 */
 div.logBox p {
 	font-size	:14px;

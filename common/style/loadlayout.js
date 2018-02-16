@@ -1,7 +1,7 @@
 function header(){
 	var html = "";
 	
-	html += "<h1><U>monicaの管理室</U></h1>";
+	html += "<h1><U>monicainmbの物置</U></h1>";
 	html += "<p>何か作ったものを載せるだけのHP</p>";
 
 	document.write(html);

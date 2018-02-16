@@ -12,9 +12,7 @@ function linkmenu(){
 	
 	html += "<ul>";
 	html += "	作ったもの";
-	html += "	<li>ゲーム</li>";
-	html += "	<li>ツール</li>";
-	html += "	<li>サンプル</li>";
+	html += "	<li><a href=\"./linkmenu/monicainmb_github_io.html\">webページ(ここ)</a></li>";
 	html += "</ul>";
 
 	document.write(html);

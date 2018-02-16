@@ -23,22 +23,28 @@ h3 {
  */
 div.header {
 	position:relative;
+	margin-left:	auto;
+	margin-right:	auto;
+	width:			1000px;
 }
 
 /*
  メイン部分
  */
 div.main {
-	position:relative;
+	position:		relative;
+	margin-left:	auto;
+	margin-right:	auto;
+	width:			1000px;
 }
 
 /*
  内容
  */
 div.main .content {
-	position:relative;
-	float	:right;
-
+	position:		relative;
+	float	:		right;
+	width:			850px;
 }
 
 /*
@@ -46,7 +52,7 @@ div.main .content {
  */
 div.main .linkmenu {
 	position:	relative;
-	width:		128px;
+	width:		150px;
 	float:		left;
 }
 
@@ -63,7 +69,11 @@ div.main .linkmenu li {
  HP下部
  */
 div.footer {
-	position:relative;
+	text-align:	center;
+	position:	relative;
+	margin-left:	auto;
+	margin-right:	auto;
+	width:		1000px;
 }
 
 /*
@@ -81,8 +91,9 @@ ul:after {
 */
 div.logBox p {
 	font-size	:14px;
-	width		:320px;
+	width		:auto;
 	height		:128px;
 	overflow	:scroll;
 	background	:white;
+	border		:solid;
 }
